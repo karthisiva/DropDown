@@ -14,6 +14,16 @@
 		00DB28E91AE0ED6D0092993B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DB28E81AE0ED6D0092993B /* Images.xcassets */; };
 		00DB28EC1AE0ED6D0092993B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00DB28EA1AE0ED6D0092993B /* LaunchScreen.xib */; };
 		00DB28F81AE0ED6D0092993B /* TimeOff_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DB28F71AE0ED6D0092993B /* TimeOff_MobileTests.m */; };
+		00DB29031AE0EF9A0092993B /* EmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DB29021AE0EF9A0092993B /* EmployeeViewController.m */; };
+		00DB29051AE0F0BD0092993B /* EmployeeReport.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 00DB29041AE0F0BD0092993B /* EmployeeReport.sqlite */; };
+		00DB29071AE0F1180092993B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DB29061AE0F1180092993B /* libsqlite3.dylib */; };
+		00DB290A1AE120100092993B /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DB29091AE120100092993B /* NIDropDown.m */; };
+		00DB290C1AE133310092993B /* login.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 00DB290B1AE133310092993B /* login.sqlite */; };
+		00DB290E1AE13E270092993B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DB290D1AE13E270092993B /* MessageUI.framework */; };
+		00DB29101AE13FA60092993B /* EmployeeReport.html in Resources */ = {isa = PBXBuildFile; fileRef = 00DB290F1AE13FA60092993B /* EmployeeReport.html */; };
+		3AEC8F061AE174C00082ABA3 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AEC8F041AE174C00082ABA3 /* down.png */; };
+		3AEC8F071AE174C00082ABA3 /* upone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AEC8F051AE174C00082ABA3 /* upone.png */; };
+		3AEC8F0A1AE1A7310082ABA3 /* IHKeyboardAvoiding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC8F091AE1A7310082ABA3 /* IHKeyboardAvoiding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,19 @@
 		00DB28F11AE0ED6D0092993B /* TimeOff MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeOff MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DB28F61AE0ED6D0092993B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00DB28F71AE0ED6D0092993B /* TimeOff_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeOff_MobileTests.m; sourceTree = "<group>"; };
+		00DB29011AE0EF9A0092993B /* EmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeViewController.h; sourceTree = "<group>"; };
+		00DB29021AE0EF9A0092993B /* EmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeViewController.m; sourceTree = "<group>"; };
+		00DB29041AE0F0BD0092993B /* EmployeeReport.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = EmployeeReport.sqlite; sourceTree = "<group>"; };
+		00DB29061AE0F1180092993B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		00DB29081AE120100092993B /* NIDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIDropDown.h; sourceTree = "<group>"; };
+		00DB29091AE120100092993B /* NIDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIDropDown.m; sourceTree = "<group>"; };
+		00DB290B1AE133310092993B /* login.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = login.sqlite; sourceTree = "<group>"; };
+		00DB290D1AE13E270092993B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		00DB290F1AE13FA60092993B /* EmployeeReport.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EmployeeReport.html; sourceTree = "<group>"; };
+		3AEC8F041AE174C00082ABA3 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		3AEC8F051AE174C00082ABA3 /* upone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upone.png; sourceTree = "<group>"; };
+		3AEC8F081AE1A7310082ABA3 /* IHKeyboardAvoiding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHKeyboardAvoiding.h; sourceTree = "<group>"; };
+		3AEC8F091AE1A7310082ABA3 /* IHKeyboardAvoiding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHKeyboardAvoiding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DB290E1AE13E270092993B /* MessageUI.framework in Frameworks */,
+				00DB29071AE0F1180092993B /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,11 @@
 		00DB28CF1AE0ED6C0092993B = {
 			isa = PBXGroup;
 			children = (
+				3AEC8F0B1AE1A7390082ABA3 /* keyboard */,
+				3AEC8F041AE174C00082ABA3 /* down.png */,
+				3AEC8F051AE174C00082ABA3 /* upone.png */,
+				00DB290D1AE13E270092993B /* MessageUI.framework */,
+				00DB29061AE0F1180092993B /* libsqlite3.dylib */,
 				00DB28DA1AE0ED6D0092993B /* TimeOff Mobile */,
 				00DB28F41AE0ED6D0092993B /* TimeOff MobileTests */,
 				00DB28D91AE0ED6D0092993B /* Products */,
@@ -85,7 +115,14 @@
 				00DB28E01AE0ED6D0092993B /* AppDelegate.m */,
 				00DB28E21AE0ED6D0092993B /* ViewController.h */,
 				00DB28E31AE0ED6D0092993B /* ViewController.m */,
+				00DB29011AE0EF9A0092993B /* EmployeeViewController.h */,
+				00DB29021AE0EF9A0092993B /* EmployeeViewController.m */,
+				00DB290B1AE133310092993B /* login.sqlite */,
+				00DB290F1AE13FA60092993B /* EmployeeReport.html */,
 				00DB28E51AE0ED6D0092993B /* Main.storyboard */,
+				00DB29081AE120100092993B /* NIDropDown.h */,
+				00DB29091AE120100092993B /* NIDropDown.m */,
+				00DB29041AE0F0BD0092993B /* EmployeeReport.sqlite */,
 				00DB28E81AE0ED6D0092993B /* Images.xcassets */,
 				00DB28EA1AE0ED6D0092993B /* LaunchScreen.xib */,
 				00DB28DB1AE0ED6D0092993B /* Supporting Files */,
@@ -117,6 +154,15 @@
 				00DB28F61AE0ED6D0092993B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AEC8F0B1AE1A7390082ABA3 /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3AEC8F081AE1A7310082ABA3 /* IHKeyboardAvoiding.h */,
+				3AEC8F091AE1A7310082ABA3 /* IHKeyboardAvoiding.m */,
+			);
+			name = keyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +246,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				00DB28E71AE0ED6D0092993B /* Main.storyboard in Resources */,
+				00DB29051AE0F0BD0092993B /* EmployeeReport.sqlite in Resources */,
+				3AEC8F061AE174C00082ABA3 /* down.png in Resources */,
+				3AEC8F071AE174C00082ABA3 /* upone.png in Resources */,
+				00DB290C1AE133310092993B /* login.sqlite in Resources */,
 				00DB28EC1AE0ED6D0092993B /* LaunchScreen.xib in Resources */,
 				00DB28E91AE0ED6D0092993B /* Images.xcassets in Resources */,
+				00DB29101AE13FA60092993B /* EmployeeReport.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEC8F0A1AE1A7310082ABA3 /* IHKeyboardAvoiding.m in Sources */,
 				00DB28E41AE0ED6D0092993B /* ViewController.m in Sources */,
 				00DB28E11AE0ED6D0092993B /* AppDelegate.m in Sources */,
+				00DB290A1AE120100092993B /* NIDropDown.m in Sources */,
+				00DB29031AE0EF9A0092993B /* EmployeeViewController.m in Sources */,
 				00DB28DE1AE0ED6D0092993B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +466,7 @@
 				00DB28FD1AE0ED6E0092993B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00DB28FE1AE0ED6E0092993B /* Build configuration list for PBXNativeTarget "TimeOff MobileTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +475,7 @@
 				00DB29001AE0ED6E0092993B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

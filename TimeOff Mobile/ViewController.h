@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <sqlite3.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController<UITextFieldDelegate>
+{
+    sqlite3 *database;
+    NSArray *documentPaths;
+    NSString *documentsDir;
+    NSString *databasePath;
+}
+@property (strong, nonatomic) IBOutlet UITextField *txtUsername;
+@property (strong, nonatomic) IBOutlet UITextField *txtPassword;
+- (IBAction)actionLogin:(id)sender;
 
 
 @end
